@@ -15,7 +15,7 @@
 
 .logo-link{
     color: #666666;
-    text-decoration: none;
+    text-decoration: none;    font-size: 2.5rem;
 }
 body{
     font-family: "Poppins", serif;
