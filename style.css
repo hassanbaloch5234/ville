@@ -1,0 +1,298 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.linkfootter{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+/* .... */
+
+
+
+/* llll */
+
+
+.logo-link{
+    color: #666666;
+    text-decoration: none;
+}
+body{
+    font-family: "Poppins", serif;
+}
+.poppins-thin {
+  font-family: "Poppins", serif;
+
+  font-style: normal;
+}
+.navbar-toggler-icon{
+color: transparent;
+background-color: transparent;
+}
+.bi-list{
+    color: white;
+}
+.menu-big{
+    font-size:2rem;
+}
+.clm-top {
+    justify-content: center;
+    text-align: center;
+}
+.topbar{
+    align-items: center;
+    justify-content: center;
+}
+
+.yellowshadebtn{
+    background-color: #E4AB0D;
+    padding: 14px 40px;
+    border-radius: 50px;
+    border: 0;
+    
+    font-size: 1rem;
+    text-decoration: none;
+    list-style-type: none;
+    box-shadow: #ababab82 1px 5px 12px 0px;
+}
+.yellowshadebtn:hover{
+    background-color: #ABABAB;
+ 
+}
+
+.yellowshadebtn a{
+    color: #223B6A;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    list-style-type: none;
+}
+.grey-text{
+    color: #666666;
+}
+.flex-with-icon{
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+
+}.flex-with-icon i{
+ font-size: 31px;
+ color: #E4AB0D;
+}
+
+.bg-navbar{
+    background-color: #223B6A;
+
+
+
+}
+.center-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-hero-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/bg.avif)no-repeat center center/cover;
+    padding: 100px 200px;
+    background-color: #000000a2;
+    background-blend-mode: darken;
+}
+.center-text-hero{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.center-text-hero h1{
+}
+.title-hero{
+    text-shadow: #000000 2px 2px 2xp 2PX;
+font-size: 3.5rem;
+}
+
+
+.blue-text{
+color: #223B6A;
+
+}
+
+
+.big-blue-font{
+    font-size: 3.5rem;
+}
+.big-blue-font::before{
+border: 2px solid #E9AB00;
+border-bottom: 2px solid green;
+position: absolute;
+width: 100px;
+height: 10px;
+z-index: 999;
+}
+
+
+
+.grey-bg{
+    background: #F2F2F2;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: px;
+ 
+    line-height: 30px;
+    background:  #F2F2F2;
+border: 0;
+}
+.shadow-img{
+    box-shadow: #00000024 1px 12px 20px 8px;
+}
+
+
+
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+.content-section {
+    padding: 40px 0;
+}
+.content-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.content-section ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.content-section ul li:last-child {
+    border-bottom: none;
+}
+.call-to-action {
+
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.call-to-action h3 {
+    font-size: 1.5rem;
+}
+
+
+
+
+/* blue-container */
+.flex-clm{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.blue-bg 
+
+
+
+{
+    background: #223B6A;
+}
+
+
+
+.shade-bg{
+    background: url(img/bgshade.png)repeat   ;
+}
+footer{
+    padding-top: 40px;
+    background-color: #F5F5F5;
+}
+
+.yellowline{
+  
+    border-bottom: #E9AB00 5px solid; 
+    margin: 20px 0;
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+   
+    .bg-hero-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(img/bg.avif) no-repeat center center / cover;
+        padding: 30px 30px; 
+        background-color: #000000a2;
+        background-blend-mode: darken;
+    }
+
+    .title-hero {
+        text-shadow: #000000 2px 2px 2xp 2PX;
+        font-size: 1.5rem;
+    }
+
+.yellowshadebtn a{
+    font-size: 1rem;
+}
+
+
+
+.big-blue-font {
+    font-size: 1.5rem;
+}
+
+
+
+
+}
+@media only screen and (max-width: 700px) {
+    .topbar {
+     
+      display: flex;
+     flex-direction: column;
+     align-items: center;
+    justify-content: center ;
+    padding: 20px 0px;
+    }
+  
+
+
+
+
+.yellowshadebtn a{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+
+.hideonmbl{
+    display: none;
+    }
+
+
+
+
+
+}
+
+
